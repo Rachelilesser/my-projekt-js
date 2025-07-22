@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>עמוד רישום</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <form action="1.html" method="post"></form>
+    <div class=""></div>
+    <h1>ברוכים הבאים למשחק הזיכרון
+        <br>
+        כדי לשחק יש למלא את הפרטים הבאים:
+    </h1>
+    <form action="form" id="form">
+        <label for="idname">שחקן- שם פרטי</label>
+        <br>
+        <input type="text" id="idname" name="idname"  placeholder=" הכנס פה שם פרטי" required>
+        <br>
+        <label for="idlast">הכנס קוד משתמש  </label>
+        <br>
+        <input type="password" id="idpass" name="idpass" placeholder="  הכנס קוד משתמש  " required>
+        <br>
+         <label for="idlast">הכנס מייל משתמש  </label>
+        <br>
+        <input type="email" id="idemail" name="idemail" placeholder="  הכנס מייל   " required>
+        <br>
+        <label for="idage"> גיל </label>
+        <br>
+        <input type="number" id="idage"name="idage" value="18" name="idage" min="0" required>
+        <br>
+        <label for="rama">בחר רמה</label>
+        <br>
+        <select name="rama" id="rama" required>
+            <option value="1">קל</option>
+            <option value="2">בינוני</option>
+            <option value="3">קשה</option>
+        </select>
+        <br>
+        <input type="submit" value="הירשם">
+    </form>
+    <script src="11.js"></script>
+</body>
+
+</html>
